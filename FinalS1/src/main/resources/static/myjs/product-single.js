@@ -97,6 +97,8 @@ document.addEventListener("DOMContentLoaded", function() {
 	                        addToCartButton.style.pointerEvents = 'none';
 	                        addToCartButton.style.opacity = '0.5'; // 改變透明度表示禁用狀態
 	                        addToCartButton.innerText = "已售完"; // 顯示已售完
+							addToCartButton.style.color = '		#800000';
+							addToCartButton.style.fontWeight = 'bold'
 	                    } else {
 	                        // 啟用按鈕
 	                        addToCartButton.style.pointerEvents = 'auto';
