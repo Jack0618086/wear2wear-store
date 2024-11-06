@@ -89,7 +89,7 @@ public class CheckoutController {
         obj.setTotalAmount(String.valueOf(totalAmount));
         obj.setTradeDesc("EEIT專案");
         obj.setItemName(itemNames.toString());       
-        obj.setReturnURL("https://23d9-218-32-102-243.ngrok-free.app/ecpayresponse/receiveECPayResponse");
+        obj.setReturnURL("https://3068-118-170-206-175.ngrok-free.app/ecpayresponse/receiveECPayResponse");
         obj.setClientBackURL("http://localhost:8080/Home.html");
         obj.setNeedExtraPaidInfo("N");
         obj.setChooseSubPayment("ALL");
